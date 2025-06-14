@@ -53,13 +53,13 @@ Maria, obrigado por usar o nosso terminal. Sua agência 1234, conta 56789, segue
 ---
 
 ## 🛠 Tecnologias utilizadas
-° Java (JDK 8)
-° Terminal (linha de comando)
+1. Java (JDK 8)
+2. Terminal (linha de comando)
 
 ---
 
 ## 🎯 Melhorias futuras 
-° Adicionar suporte a múltiplas operações com while
-° Validação de entrada (evitar valores negativos)
-° Implementar persistência de dados (salvar saldos em arquivo)
-° Criar interface gráfica com JavaFX ou Swing
+#### Adicionar suporte a múltiplas operações com while
+#### Validação de entrada (evitar valores negativos)
+#### Implementar persistência de dados (salvar saldos em arquivo)
+#### Criar interface gráfica com JavaFX ou Swing
