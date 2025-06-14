@@ -32,19 +32,23 @@ public class ContaTerminal {
 			System.out.println("Qual valor será depositado?");
 			deposito = sc.nextInt();
 			saldo += deposito;
-			System.out.println("Seu saldo total é de R$ " + saldo);
-		}
-		if (comando.equals(sacar)) {
+			System.out.printf("Seu saldo total é de R$ %.2f%n", saldo);
+		
+		} else if (comando.equals(sacar)) {
 			System.out.println("Qual valor será sacado?");
 			saque = sc.nextInt();
 
 			saldo -= saque;
-			System.out.println("Seu saldo total é de R$ " + saldo);
+			System.out.printf("Seu saldo total é de R$ %.2f%n", saldo);
+
 		} else {
-			System.out.println("Seu saldo total é de R$ " + saldo);
+			System.out.printf("Seu saldo total é de R$ %.2f%n", saldo);
 		}
-		
-		System.out.println(nome + ", obrigado por usar o nosso terminal. Sua agência " + agencia + ", conta " + numero + ", segue disponível com o saldo de R$ " + saldo); 
+
+		System.out.printf(
+				"%s, obrigado por usar o nosso terminal. Sua agência %s, conta %d, segue disponível com o saldo de R$ %.2f\n",
+				nome, agencia, numero, saldo);
+
 		sc.close();
 	}
 
