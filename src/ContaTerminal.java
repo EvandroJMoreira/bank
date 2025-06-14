@@ -7,7 +7,7 @@ public class ContaTerminal {
 		Scanner sc = new Scanner(System.in);
 
 		String agencia, nome, comando, depositar, sacar;
-		int numero, valor, deposito, saque;
+		int numero, deposito, saque;
 		double saldo;
 
 		depositar = "depositar";
