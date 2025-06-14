@@ -13,7 +13,7 @@ Este é um projeto simples em Java que simula uma conta bancária via terminal. 
 - Execução de comandos via terminal:
   - `depositar`: adiciona um valor ao saldo
   - `sacar`: subtrai um valor do saldo
-  - Qualquer outro comando exibe o saldo atual
+  -  Qualquer outro comando exibe o saldo atual
 
 ---
 
