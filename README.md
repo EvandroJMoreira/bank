@@ -31,7 +31,9 @@ Este é um projeto simples em Java que simula uma conta bancária via terminal. 
 4. Execute:
     java ContaTerminal
 
-💻 Exemplo de uso
+---
+
+## 💻 Exemplo de uso
 
 Por favor, digite o número da Agência!
 1234
@@ -48,11 +50,15 @@ Qual valor será depositado?
 Seu saldo total é de R$ 1000.00
 Maria, obrigado por usar o nosso terminal. Sua agência 1234, conta 56789, segue disponível com o saldo de R$ 1000.00
 
-🛠 Tecnologias utilizadas
+---
+
+## 🛠 Tecnologias utilizadas
 ° Java (JDK 8)
 ° Terminal (linha de comando)
 
-🎯 Melhorias futuras 
+---
+
+## 🎯 Melhorias futuras 
 ° Adicionar suporte a múltiplas operações com while
 ° Validação de entrada (evitar valores negativos)
 ° Implementar persistência de dados (salvar saldos em arquivo)
