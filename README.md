@@ -36,16 +36,16 @@ Este é um projeto simples em Java que simula uma conta bancária via terminal. 
 ## 💻 Exemplo de uso
 
 #### Por favor, digite o número da Agência!
-###### 1234
+ 1234
 #### Por favor, digite o número da sua conta: 
-###### 56789
+ 56789
 ##### Por favor, digite o seu nome: 
-####### Maria
+ Maria
 ##### Maria, bem-vindo(a). O que você deseja fazer hoje?
 ##### depositar, sacar ou ver extrato?
-####### depositar
+ depositar
 ##### Qual valor será depositado?
-####### 1000
+ 1000
 ##### Seu saldo total é de R$ 1000.00
 ##### Maria, obrigado por usar o nosso terminal. Sua agência 1234, conta 56789, segue disponível com o saldo de R$ 1000.00
 
